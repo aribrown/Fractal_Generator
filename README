@@ -1,0 +1,17 @@
+README
+
+Fractal Generator
+By: Ari Brown
+
+------- Run ------------
+Compile: clang++ -Wall -Wextra fractal.cpp -o fractal -F /Library/Frameworks -framework SDL2_image -framework SDL2
+
+Run:
+        ./fractal
+
+Note: requires SDL2 and SDL2_image frameworks
+
+---------------------------------
+Many of the fractal parameters can be changed in the "INITAL VARIABLES"
+section of main, which will create different effects.
+This basic fractal is derived from a koch curve.
